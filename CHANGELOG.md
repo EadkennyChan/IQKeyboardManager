@@ -1,3 +1,7 @@
+## 6.4.1 (20-6-2019)
+tableview footer 上浮问题修复
+[![IQKeyboardManager](https://github.com/EadkennyChan/IQKeyboardManager/blob/master/Screenshot/UITableView.jpg)]
+
 ## 6.0.1 (16-4-2018 | 4 days)
 
 #### Bug fixes

@@ -1012,8 +1012,9 @@ NSInteger const kIQPreviousNextButtonToolbarTag     =   -1005;
                 // Update the insets so that the scroll vew doesn't shift incorrectly when the offset is near the bottom of the scroll view.
                 UIEdgeInsets movedInsets = strongLastScrollView.contentInset;
 
+                /*be shadowed by chenzw
                 movedInsets.bottom = MAX(_startingContentInsets.bottom, bottom);
-                
+                end by chenzw*/
                 if (UIEdgeInsetsEqualToEdgeInsets(strongLastScrollView.contentInset, movedInsets) == NO)
                 {
                     [self showLog:[NSString stringWithFormat:@"old ContentInset : %@ new ContentInset : %@", NSStringFromUIEdgeInsets(strongLastScrollView.contentInset), NSStringFromUIEdgeInsets(movedInsets)]];
